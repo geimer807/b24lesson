@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    line-height: 150%;
+    font-family: "Inter", sans-serif;
+}
+.container {
+    max-width: 1440px;
+    width: 96%;
+    margin: 0 auto;
+
+}
+.hero{background-image: url(../images/hero.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    /* 100vh-заполняет блок на 100% */
+    
+}
+.header{
+    padding: 30px 0 20px;
+    border-bottom: 1px rgba(255, 255, 255, 0.6) solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+}
+.header a + a{
+    margin-left: 40px;
+}
